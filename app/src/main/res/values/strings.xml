@@ -1,0 +1,3 @@
+<resources name="Theme.BuildCot"
+    parent="Theme.Material3.DayNight.NoActionBar">
+</resources>
