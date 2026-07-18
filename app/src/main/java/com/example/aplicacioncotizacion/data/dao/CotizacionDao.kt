@@ -3,7 +3,6 @@ package com.example.aplicacioncotizacion.data.dao
 
 import androidx.room.*
 import com.example.aplicacioncotizacion.data.entity.Cotizacion
-import com.example.aplicacioncotizacion.entity.Cotizacion
 
 @Dao
 interface CotizacionDao {

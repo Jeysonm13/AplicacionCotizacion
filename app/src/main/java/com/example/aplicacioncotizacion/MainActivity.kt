@@ -2,13 +2,13 @@ package com.example.aplicacioncotizacion
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.aplicacioncotizacion.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 
 
-class MainActivity : aplicacioncotizacionCompatActivity() {
+class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
 

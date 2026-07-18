@@ -25,12 +25,12 @@ import com.example.aplicacioncotizacion.data.entity.*
 )
 abstract class AppDatabase : RoomDatabase() {
 
-    abstract fun UsuarioDao(): UsuarioDao
-    abstract fun ClienteDao(): ClienteDao
-    abstract fun MaterialDao(): MaterialDao
-    abstract fun ProyectoDao(): ProyectoDao
-    abstract fun CotizacionDao(): CotizacionDao
-    abstract fun DetalleCotizacionDao(): DetalleCotizacionDao
+    abstract fun usuarioDao(): UsuarioDao
+    abstract fun clienteDao(): ClienteDao
+    abstract fun materialDao(): MaterialDao
+    abstract fun proyectoDao(): ProyectoDao
+    abstract fun cotizacionDao(): CotizacionDao
+    abstract fun detalleCotizacionDao(): DetalleCotizacionDao
 
     companion object {
 
